@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>                      
+    <div class="container">
+        <div class="header"><h1>ⓉⒾⒸ ⓉⒶⒸ ⓉⓄⒺ</h1></div>
+
+        <dialog class="dialog-container" >
+
+            <form action="" id="form-container">
+
+                <div class="player-1">
+                    <label for="player1Name">Player1</label>
+                    <input type="text" name="Player1" id="player1Name" >
+                </div>
+
+                <div class="player-2">
+                    <label for="player2Name">Player 2</label>
+                    <input type="text" name="Player2" id="player2Name" >
+                </div>
+
+                <div class="dialog-close">
+                    <button type="submit" id="submit-button">Play</button>
+                </div>
+            </form>
+        </dialog>
+
+        <div class="text">
+            <p class="update-state"></p>
+        </div>
+
+        <div class="game-container">
+            <div class="button1 "><button class="cell" value="0,0"></button></div>
+            <div class="button2 "><button class="cell" value="0,1"></button></div>
+            <div class="button3 "><button class="cell" value="0,2"></button></div>
+            <div class="button4 "><button class="cell" value="1,0"></button></div>
+            <div class="button5 "><button class="cell" value="1,1"></button></div>
+            <div class="button6 "><button class="cell" value="1,2"></button></div>
+            <div class="button7 "><button class="cell" value="2,0"></button></div>
+            <div class="button8 "><button class="cell" value="2,1"></button></div>
+            <div class="button9 "><button class="cell" value="2,2"></button></div>
+        </div> 
+        <div class="reset"><button class="reset-button">Reset Game</button></div>
+    </div>
+</body>
+</html>
